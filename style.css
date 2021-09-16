@@ -5,22 +5,29 @@
   }
  
   body {
-      background-color: #eff1f2;
+     background-size: cover;
+      background-image: url(https://www.freepik.com/free-vector/gradient-hexagonal-background_13810721.htm#&position=32);
       font-family: sans-serif;
   }
  
 .content {
     grid-area: content;
 }
-.sidebar{
-    grid-area: sidebar;
-    background: linear-gradient(to right, rgba(200,107,142,1), rgba(218,105,250,1),
-     rgba(110,125,253,1)) ;
-    justify-content: center;
-}
+
+
 .footer {
     grid-area: footer;
     background: white;
+}
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+.header-left { 
+      float:left;
+}
+.header-right {
+      float:right;
 }
 .container {
     font-size: 1.5em;
@@ -34,7 +41,7 @@
  
 }
  
-.content, .sidebar, .footer{
+.content, .footer{
     padding: 1em;
 }
  
@@ -83,6 +90,11 @@ nav li a:hover {
     line-height: 1.3em;
     color: #98aBad;
 }
+
+.hero h1 , hero p { 
+      margin: 0 auto;
+      text-align:center;
+}
  
 .action-btn {
     display: inline-block;
@@ -105,7 +117,10 @@ display: flex;
 flex-direction: row;
  
 }
- 
+ footer ul: hover {
+    opacity: 1;
+}
+
 footer ul li {
     list-style: none;
     align-self: flex-end;
@@ -136,10 +151,7 @@ footer p {
         justify-content: space-between;
         flex-direction: column;
     }
-    .sidebar{
-        background: linear-gradient( rgba(200,107,142,1), rgba(218,105,250,1),
-        rgba(110,125,253,1)) ;
-        padding-top: 10em;
+   
     }
     .hero{
         text-align: left;
