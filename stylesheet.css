@@ -24,6 +24,6 @@ a {
     margin-top: 50px;
 }
 
-button{
-margin-top:20px;
+button.btn.submit {
+  margin-top: 20px;
 }
