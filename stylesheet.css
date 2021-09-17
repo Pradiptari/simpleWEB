@@ -23,3 +23,7 @@ a {
 .form-wrapper h2{
   margin-top: 50px;
 }
+
+.submit{
+padding: 15px 40px;
+}
